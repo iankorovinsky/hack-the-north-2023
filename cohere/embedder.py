@@ -1,4 +1,5 @@
 import cohere
+from dotenv import dotenv_values
 
 class StringEmbedder:
     def __init__(self, api_key):
@@ -18,7 +19,8 @@ class StringEmbedder:
         return dot_product / (magnitude1 * magnitude2)
 
 # Example usage
-api_key = 'YOUR_COHERE_API_KEY'
+env_config = dotenv_values(".env")
+api_key = env_config.get('COHERE_API_KEY')
 embedder = StringEmbedder(api_key)
 
 text1 = "Hello, how are you?"

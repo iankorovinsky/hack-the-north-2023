@@ -3,7 +3,7 @@ import { Rnd } from "react-rnd";
 
 export default function App() {
   const [loading, setLoading] = useState(false);
-  const [videoName, setVideoName] = useState("test.mp4");
+  const [videoName, setVideoName] = useState("fragment_22.mp4");
   const [muted, setMuted] = useState(true);
   const [response, setResponse] = useState();
   const [question, setQuestion] = useState("");
@@ -18,6 +18,7 @@ export default function App() {
 
   const getResponses = async () => {
     setLoading(true);
+
     // do some processing....
 
     const fake_response = "Wow, you are so cool!";

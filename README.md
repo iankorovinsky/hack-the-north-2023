@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />DejaVu: Making Memories Unforgettable <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
+=======
+# <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> DejaVu: Making Memories Unforgettable <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
+>>>>>>> 13e166b (Changed basic README headers)
 
 > DejaVu is a platform that allows you to search through your memories and find those moments that you just can't remember...
 >

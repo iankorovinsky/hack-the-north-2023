@@ -3,6 +3,7 @@ import { Rnd } from "react-rnd";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
+  const [videoName, setVideoName] = useState("test.mp4");
   const [muted, setMuted] = useState(true);
   const [response, setResponse] = useState();
   const [question, setQuestion] = useState("");
@@ -28,7 +29,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      {/* Video element covering the entire screen */}
       <video
         id="background-video"
         autoPlay
@@ -36,29 +36,44 @@ export default function Home() {
         muted={muted}
         className="fixed top-0 left-0 min-w-full min-h-full object-cover"
       >
-        <source src="/test.mp4" type="video/mp4" />
+        <source src={"/" + videoName} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
-      {/* Your content */}
+      <button
+        style={{
+          border: "none",
+          outline: "none",
+          background: "transparent",
+          cursor: "pointer",
+          fontSize: "16px",
+          color: "#666666",
+          position: "absolute",
+          top: "10px",
+          right: "10px",
+        }}
+        onClick={() => setMuted(!muted)}
+      >
+        {muted ? "Unmute" : "Mute"}
+      </button>
+
       <main className="relative z-10">
         <Rnd
           default={{
-            x: Math.random() * 1000,
-            y: Math.random() * 1000,
+            x: 10,
+            y: 10,
             width: 320,
             height: 320,
           }}
           style={{
             display: "flex",
-            alignItems: "center",
             justifyContent: "space-between",
             background: "rgba(255, 255, 255, 0.75)",
             backdropFilter: "blur(10px)",
             boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
             borderRadius: "8px",
             color: "black",
-            padding: "0 10px",
+            padding: "25px 25px",
           }}
         >
           {loading && <div>Loading...</div>}
@@ -115,8 +130,6 @@ export default function Home() {
             Search
           </button>
         </Rnd>
-
-        {/* ... your existing content ... */}
       </main>
     </div>
   );

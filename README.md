@@ -1,6 +1,6 @@
-# <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> Dejavu: Making Memories Unforgettable, One Video at a Time! <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
+# <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> DejaVu: Making Memories Unforgettable <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
 
-> Dejavu is a platform that allows you to search through your memories and find those moments that you just can't remember...
+> DejaVu is a platform that allows you to search through your memories and find those moments that you just can't remember...
 >
 > Submitted to Hack The North 2023!
 
@@ -33,11 +33,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Have you ever been in a situation where you feel like you've been there before, but you just can't remember when? Introducing the extraordinary world of Dejavu, where your treasured memories are brought back to life with a touch of magic and innovation. We all know that feeling - the faint whisper of a forgotten memory, just out of grasp. But fear not, for Dejavu is here to help you relive those cherished moments from the depths of your video archives.
+Have you ever been in a situation where you feel like you've been there before, but you just can't remember when? Introducing the extraordinary world of DejaVu, where your treasured memories are brought back to life with a touch of magic and innovation. We all know that feeling - the faint whisper of a forgotten memory, just out of grasp. But fear not, for DejaVu is here to help you relive those cherished moments from the depths of your video archives.
 
-Our state-of-the-art software is your personal memory time machine, ready to embark on a journey through your life's recorded adventures. Simply enter a few descriptive phrases from the memory you're seeking, and watch as Dejavu tirelessly scours your video recordings. It meticulously pieces together the fragments of your past, creating a mesmerizing playback that captures the essence of that special moment.
+Our state-of-the-art software is your personal memory time machine, ready to embark on a journey through your life's recorded adventures. Simply enter a few descriptive phrases from the memory you're seeking, and watch as DejaVu tirelessly scours your video recordings. It meticulously pieces together the fragments of your past, creating a mesmerizing playback that captures the essence of that special moment.
 
-Rediscover the joy, the laughter, and the heartfelt emotions that were once locked away in the depths of your mind. Dejavu doesn't just bring back memories; it rekindles the warmth and nostalgia that make your life story truly unique. So, why let those precious moments fade into obscurity when you can make them unforgettable with Dejavu? Join us in this remarkable journey of memory exploration and become the curator of your own cherished experiences. 
+Rediscover the joy, the laughter, and the heartfelt emotions that were once locked away in the depths of your mind. DejaVu doesn't just bring back memories; it rekindles the warmth and nostalgia that make your life story truly unique. So, why let those precious moments fade into obscurity when you can make them unforgettable with DejaVu? Join us in this remarkable journey of memory exploration and become the curator of your own cherished experiences. 
 
 ### Built With
 
@@ -187,7 +187,7 @@ If you would like to find out more information about our project, feel free to r
 - Nicole Pardal - [LinkedIn](https://www.linkedin.com/in/nicolepardal/) - npardal@uwaterloo.ca
 - Nima Pourjafar - [LinkedIn](https://www.linkedin.com/in/nima-pourjafar/) - npourjaf@uwaterloo.ca
 
-Or, to see our submission to [Hack The North 2023](https://hackthenorth2023.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio), feel free to check out our [Devpost](https://devpost.com/software/dejavu)!
+Or, to see our submission to [Hack The North 2023](https://hackthenorth2023.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio), feel free to check out our [Devpost](https://devpost.com/software/DejaVu)!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

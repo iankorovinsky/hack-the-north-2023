@@ -6,30 +6,6 @@ import time
 import subprocess
 import os
 
-########################
-## JRF
-## VideoRecorder and AudioRecorder are two classes based on openCV and pyaudio, respectively. 
-## By using multithreading these two classes allow to record simultaneously video and audio.
-## ffmpeg is used for muxing the two signals
-## A timer loop is used to control the frame rate of the video recording. This timer as well as
-## the final encoding rate can be adjusted according to camera capabilities
-##
-
-########################
-## Usage:
-## 
-## numpy, PyAudio and Wave need to be installed
-## install openCV, make sure the file cv2.pyd is located in the same folder as the other libraries
-## install ffmpeg and make sure the ffmpeg .exe is in the working directory
-##
-## 
-## start_AVrecording(filename) # function to start the recording
-## stop_AVrecording(filename)  # "" ... to stop it
-##
-##
-########################
-
-
 
 class VideoRecorder():
 	
@@ -40,9 +16,9 @@ class VideoRecorder():
 		
 		self.open = True
 		self.device_index = 0
-		self.fps = 30               # fps should be the minimum constant rate at which the camera can
-		self.fourcc = "MJPG"       # capture images (with no decrease in speed over time; testing is required)
-		self.frameSize = (640,480) # video formats and sizes also depend and vary according to the camera used
+		self.fps = 30               
+		self.fourcc = "MJPG"       
+		self.frameSize = (640,480) 
 		self.video_filename = "temp_video.avi"
 		self.video_cap = cv2.VideoCapture(0)
 		self.video_writer = cv2.VideoWriter_fourcc(*self.fourcc)
@@ -51,10 +27,8 @@ class VideoRecorder():
 		self.start_time = time.time()
 
 	
-	# Video starts being recorded 
 	def record(self):
 		
-#		counter = 1
 		timer_start = time.time()
 		timer_current = 0
 		
@@ -64,14 +38,10 @@ class VideoRecorder():
 			if (ret==True):
 				
 					self.video_out.write(video_frame)
-#					print str(counter) + " " + str(self.frame_counts) + " frames written " + str(timer_current)
 					self.frame_counts += 1
-#					counter += 1
-#					timer_current = time.time() - timer_start
 					time.sleep(0.16)
 					
-					# Uncomment the following three lines to make the video to be
-					# displayed to screen while recording
+					# Uncomment for display while recording
 					
 #					gray = cv2.cvtColor(video_frame, cv2.COLOR_BGR2GRAY)
 #					cv2.imshow('video_frame', gray)
@@ -83,7 +53,6 @@ class VideoRecorder():
 				# 
 				
 
-	# Finishes the video recording therefore the thread too
 	def stop(self):
 		
 		if self.open==True:
@@ -97,7 +66,6 @@ class VideoRecorder():
 			pass
 
 
-	# Launches the video recording function using a thread			
 	def start(self):
 		video_thread = threading.Thread(target=self.record)
 		video_thread.start()
@@ -109,7 +77,6 @@ class VideoRecorder():
 class AudioRecorder():
 	
 
-    # Audio class based on pyAudio and Wave
     def __init__(self):
         
         self.open = True
@@ -127,7 +94,6 @@ class AudioRecorder():
         self.audio_frames = []
 
 
-    # Audio starts being recorded
     def record(self):
         
         self.stream.start_stream()
@@ -138,7 +104,6 @@ class AudioRecorder():
                 break
         
             
-    # Finishes the audio recording therefore the thread too    
     def stop(self):
        
         if self.open==True:
@@ -156,7 +121,6 @@ class AudioRecorder():
         
         pass
     
-    # Launches the audio recording function using a thread
     def start(self):
         audio_thread = threading.Thread(target=self.record)
         audio_thread.start()
@@ -209,19 +173,14 @@ def stop_AVrecording(filename):
 	frame_counts = video_thread.frame_counts
 	elapsed_time = time.time() - video_thread.start_time
 	recorded_fps = frame_counts / elapsed_time
-	print ("total frames " + str(frame_counts))
-	print ("elapsed time " + str(elapsed_time))
-	print ("recorded fps " + str(recorded_fps))
 	video_thread.stop() 
 
-	# Makes sure the threads have finished
 	while threading.active_count() > 1:
 		time.sleep(1)
 
 	
-#	 Merging audio and video signal
 	
-	if abs(recorded_fps - 6) >= 0.01:    # If the fps rate was higher/lower than expected, re-encode it to the expected
+	if abs(recorded_fps - 6) >= 0.01:   
 										
 		print ("Re-encoding")
 		cmd = "ffmpeg -r " + str(recorded_fps) + " -i temp_video.avi -pix_fmt yuv420p -r 6 temp_video2.avi"
@@ -242,7 +201,6 @@ def stop_AVrecording(filename):
 
 
 
-# Required and wanted processing of final files
 def file_manager(filename):
 
 	local_path = os.getcwd()

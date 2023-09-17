@@ -9,28 +9,51 @@ export default function App() {
   const [question, setQuestion] = useState("");
 
   useEffect(() => {
-    const video = document.getElementById("background-video"); // Get the video element
+    const video = document.getElementById("background-video");
     if (video) {
-      // @ts-ignore
+      video.src = videoName; 
+      video.load(); 
       video.play();
     }
-  }, []);
+  }, [videoName]);
 
   const getResponses = async () => {
     setLoading(true);
 
-    // do some processing....
+    const videoIndices = [0, 1, 2, 3, 4]; // Indices to iterate through
+  setLoading(true);
 
+  try {
+    for (const index of videoIndices) {
+      const response = await fetch("http://127.0.0.1:2000/api/branch", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: `query=${question}`,
+      });
 
-    
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
 
+      const data = await response.json();
+      console.log(data);
 
-    const fake_response = "Wow, you are so cool!";
-    // @ts-ignore
-    setResponse(fake_response);
-    setVideoName("fragment_23.mp4");
-    console.log(response);
-    setLoading(false);
+      if (data.results && data.results[index]) {
+        const videoFileName = data.results[index]["File Name"].replace('mov', 'mp4');
+        setVideoName(videoFileName);
+        console.log(data.results[index]);
+        setResponse(data.summary[1]);
+        setLoading(false);
+
+        // Wait for 20 seconds before playing the next video
+        await new Promise(resolve => setTimeout(resolve, 15000));
+      }
+    }
+  } catch (e) {
+    console.error("Error playing videos:", e);
+  }
   };
 
   return (
@@ -69,7 +92,7 @@ export default function App() {
             x: 10,
             y: 10,
             width: 320,
-            height: 320,
+            height: 500,
           }}
           style={{
             display: "flex",

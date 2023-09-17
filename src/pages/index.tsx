@@ -20,10 +20,15 @@ export default function Home() {
   return (
     <div className="relative min-h-screen">
       {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={backgroundImageStyle}
-      ></div>
+      <video
+        id="background-video"
+        autoPlay
+        loop
+        className="fixed top-0 left-0 min-w-full min-h-full object-cover"
+      >
+        <source src={"/fragment_15.mp4"} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       {/* Blur Overlay */}
       <div

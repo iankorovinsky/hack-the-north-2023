@@ -21,9 +21,14 @@ export default function App() {
 
     // do some processing....
 
+
+    
+
+
     const fake_response = "Wow, you are so cool!";
     // @ts-ignore
     setResponse(fake_response);
+    setVideoName("fragment_23.mp4");
     console.log(response);
     setLoading(false);
   };

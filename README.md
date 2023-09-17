@@ -59,36 +59,56 @@ And not to forget, here are some APIs and libraries that we were able to include
 - [MoviePy](https://pypi.org/project/moviepy/)
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Installation (For Developers)
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Front-End
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+```shell
+cd frontend
+```
 
-### Installation
+Install all dependencies, and next
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+```shell
+npm i next
+npm install -a
+```
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+Run web app!
+
+```shell
+npm run dev
+```
+
+### Backend Setup and Deployment
+
+Follow these steps to set up the backend environment and deploy your app. These instructions will guide you through creating a virtual environment and installing dependencies.
+
+#### Step 1: Virtual Environment and Dependencies
+
+1. Create a virtual environment and activate it:
+
+   ```shell
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+
+2. Install the required dependencies from `requirements.txt`:
+   ```shell
+   pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
+#### Step 2: Starting the Server Locally
+
+Start the server using the following command:
+
+```shell
+python hardware/main.py
+```
+
+And there we go! Your camera should be up and running!
 
 <!-- OUR STORY -->
 

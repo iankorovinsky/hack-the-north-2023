@@ -5,12 +5,13 @@
 > Submitted to Hack The North 2023
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
+![Contributors][contributors-shield]
+![Commits][commits-shield]
+![Code Size][code-size-shield]
+![Forks][forks-shield]
+![Stargazers][stars-shield]
+![Issues][issues-shield]
+![MIT License][license-shield]
 
 
 <!-- PROJECT LOGO -->
@@ -27,18 +28,6 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-    <a href="https://github.com/simple-icons/simple-icons/actions?query=workflow%3AVerify+branch%3Adevelop">
-        <img src="https://img.shields.io/github/actions/workflow/status/simple-icons/simple-icons/verify.yml?branch=develop&logo=github&label=tests" alt="Build status"/>
-    </a>
-    <a href="https://hits.dwyl.com/angeladev333/hack-the-6ix">
-        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fangeladev333%2Fhack-the-6ix.json%3Fcolor%3Dpink" alt="HitCount"/>
-    </a>
   </p>
 
 </div>
@@ -242,6 +231,12 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/iankorovinsky/hack-the-north-2023/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://opensource.org/license/mit/
+[commits-shield]:https://img.shields.io/github/commit-activity/t/iankorovinsky/hack-the-north-2023.svg?style=for-the-badge
+[commits-url]:https://github.com/iankorovinsky/hack-the-north-2023/commits
+[pull-requests-shield]:https://img.shields.io/github/issues-pr/iankorovinsky/hack-the-north-2023.svg?style=for-the-badge
+[pull-requests-url]:https://github.com/iankorovinsky/hack-the-north-2023/pulls
+[code-size-shield]:https://img.shields.io/github/languages/code-size/iankorovinsky/hack-the-north-2023.svg?style=for-the-badge
+[tests-passing-shield]: https://img.shields.io/github/actions/workflow/status/:user/hack-the-north-2023.svg?style=for-the-badge
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/

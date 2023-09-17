@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />DejaVu: Making Memories Unforgettable <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-=======
-# <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> DejaVu: Making Memories Unforgettable <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
->>>>>>> 13e166b (Changed basic README headers)
 
 > DejaVu is a platform that allows you to search through your memories and find those moments that you just can't remember...
 >
@@ -35,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://devpost.com/software/dejavu)
 
 Have you ever been in a situation where you feel like you've been there before, but you just can't remember when? Introducing the extraordinary world of DejaVu, where your treasured memories are brought back to life with a touch of magic and innovation. We all know that feeling - the faint whisper of a forgotten memory, just out of grasp. But fear not, for DejaVu is here to help you relive those cherished moments from the depths of your video archives.
 
@@ -231,7 +227,7 @@ Or, to see our submission to [Hack The North 2023](https://hackthenorth2023.devp
 [pull-requests-url]:https://github.com/iankorovinsky/hack-the-north-2023/pulls
 [code-size-shield]:https://img.shields.io/github/languages/code-size/iankorovinsky/hack-the-north-2023.svg?style=for-the-badge
 [tests-passing-shield]: https://img.shields.io/github/actions/workflow/status/:user/hack-the-north-2023.svg?style=for-the-badge
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: interface.png
 [Next.js]: https://img.shields.io/badge/next.js-808080?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [Python]: https://img.shields.io/badge/python-FF0000?style=for-the-badge&logo=python&logoColor=white

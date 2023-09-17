@@ -1,8 +1,8 @@
-# <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> dejavu - reinventing your memories <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
+# <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> Dejavu: Making Memories Unforgettable, One Video at a Time! <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
 
-> dejavu is a platform that allows you to search through your memories and find those moments that you just can't remember
+> Dejavu is a platform that allows you to search through your memories and find those moments that you just can't remember...
 >
-> Submitted to Hack The North 2023
+> Submitted to Hack The North 2023!
 
 <!-- PROJECT SHIELDS -->
 ![Contributors][contributors-shield]
@@ -17,87 +17,46 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/iankorovinsky/hack-the-north-2023">
+    <img src="logo.jpg" alt="Logo" width="100%" height="100%">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
-
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    Say goodbye to déjà vu. 
     <br />
   </p>
 
 </div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Have you ever been in a situation where you feel like you've been there before, but you just can't remember when? Introducing the extraordinary world of Dejavu, where your treasured memories are brought back to life with a touch of magic and innovation. We all know that feeling - the faint whisper of a forgotten memory, just out of grasp. But fear not, for Dejavu is here to help you relive those cherished moments from the depths of your video archives.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Our state-of-the-art software is your personal memory time machine, ready to embark on a journey through your life's recorded adventures. Simply enter a few descriptive phrases from the memory you're seeking, and watch as Dejavu tirelessly scours your video recordings. It meticulously pieces together the fragments of your past, creating a mesmerizing playback that captures the essence of that special moment.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Rediscover the joy, the laughter, and the heartfelt emotions that were once locked away in the depths of your mind. Dejavu doesn't just bring back memories; it rekindles the warmth and nostalgia that make your life story truly unique. So, why let those precious moments fade into obscurity when you can make them unforgettable with Dejavu? Join us in this remarkable journey of memory exploration and become the curator of your own cherished experiences. 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Here are the major languages/technologies we used for creating our project:
 
 * [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Python][Python]][Python-url]
+* [![Google Cloud][Google-Cloud]][Google-Cloud-url]
+* [![OpenCV][OpenCV]][OpenCV-url]
+* [![OpenAI Whisper][OpenAI-Whisper]][OpenAI-Whisper-url]
+* [![SciKit-Learn][SciKit-Learn]][SciKit-Learn-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+And not to forget, here are some APIs and libraries that we were able to include in the process:
 
-
+- [Cohere](https://cohere.com/)
+- [PyAudio](https://pypi.org/project/PyAudio/)
+- [Transformers](https://rpradeepmenon.medium.com/introduction-to-large-language-models-and-the-transformer-architecture-534408ed7e61)
+- [Contrastive Language-Image Pretraining: CLIP](https://github.com/openai/CLIP)
+- [MoviePy](https://pypi.org/project/moviepy/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -131,80 +90,22 @@ _Below is an example of how you can instruct your audience on installing and set
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
 If you would like to find out more information about our project, feel free to reach out to us on LinkedIn:
 
-Rajan Agarwal - [LinkedIn](https://www.linkedin.com/in/rajansagarwal/) - r34agarw@uwaterloo.ca
-Ian Korovinsky - [LinkedIn](https://www.linkedin.com/in/ian-korovinsky/) - ikorovin@uwaterloo.ca
-Nicole Pardal - [LinkedIn](https://www.linkedin.com/in/nicolepardal/) - npardal@uwaterloo.ca
-Nima Pourjafar - [LinkedIn](https://www.linkedin.com/in/nima-pourjafar/) - npourjaf@uwaterloo.ca
+- Rajan Agarwal - [LinkedIn](https://www.linkedin.com/in/rajansagarwal/) - r34agarw@uwaterloo.ca
+- Ian Korovinsky - [LinkedIn](https://www.linkedin.com/in/ian-korovinsky/) - ikorovin@uwaterloo.ca
+- Nicole Pardal - [LinkedIn](https://www.linkedin.com/in/nicolepardal/) - npardal@uwaterloo.ca
+- Nima Pourjafar - [LinkedIn](https://www.linkedin.com/in/nima-pourjafar/) - npourjaf@uwaterloo.ca
 
 Or, to see our submission to [Hack The North 2023](https://hackthenorth2023.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio), feel free to check out our [Devpost](https://devpost.com/software/dejavu)!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -225,19 +126,15 @@ Or, to see our submission to [Hack The North 2023](https://hackthenorth2023.devp
 [code-size-shield]:https://img.shields.io/github/languages/code-size/iankorovinsky/hack-the-north-2023.svg?style=for-the-badge
 [tests-passing-shield]: https://img.shields.io/github/actions/workflow/status/:user/hack-the-north-2023.svg?style=for-the-badge
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next.js]: https://img.shields.io/badge/next.js-808080?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[Python]: https://img.shields.io/badge/python-FF0000?style=for-the-badge&logo=python&logoColor=white
+[Python-url]:https://www.python.org/
+[Google-Cloud]:https://img.shields.io/badge/google_cloud-008000?style=for-the-badge&logo=googlecloud&logoColor=white
+[Google-Cloud-url]:https://cloud.google.com/
+[OpenCV]:https://img.shields.io/badge/opencv-0000FF?style=for-the-badge&logo=opencv&logoColor=white
+[OpenCV-url]:https://opencv.org/
+[OpenAI-Whisper]:https://img.shields.io/badge/openai_whisper-000000?style=for-the-badge&logo=openai&logoColor=white
+[OpenAI-Whisper-url]:https://openai.com/research/whisper
+[SciKit-Learn]:https://img.shields.io/badge/scikit_learn-FFC0CB?style=for-the-badge&logo=scikitlearn&logoColor=black
+[SciKit-Learn-url]:https://scikit-learn.org/
